@@ -1,5 +1,8 @@
 # Python
 
+```{contents}
+```
+
 ## Python Environment
 
 How to create new

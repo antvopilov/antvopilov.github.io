@@ -2,9 +2,30 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: intro
-chapters:
-- file: python
-- file: notebooks
-- file: markdown-notebooks
-- file: myfile.md
+root: index
+parts:
+  - caption: Python
+    chapters:
+    - file: python
+    - file: notebooks
+    - file: markdown-notebooks
+    - file: myfile.md
+
+  - caption: LLM
+    chapters:
+    - file: llm/index.md  
+    - file: llm/langchain.md
+    - file: llm/openai.md
+
+  - caption: Math
+    chapters:
+    - file: math/index.md
+    - file: math/example.md
+
+  - caption: Code
+    chapters:
+    - file: patterns/index
+      sections:
+      - file: patterns/solid.md
+      - file: patterns/builder.md
+
